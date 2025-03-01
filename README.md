@@ -1,5 +1,9 @@
 Project: Prerendering web resources
 
+On over over the link, we will prerender the page we will be going to.
+This should be lighting fast. 
+
+
 OVERVIEW
 A modern, responsive website showcasing renewable energy solutions with a focus on performance and user experience.
 
