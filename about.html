@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="speculationrules">
+        {
+            "prerender": [
+                {
+                    "urls": ["/","/about.html", "/contact.html"],
+                    "eagerness": "moderate"
+                }
+            ]
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <img src="img/about.png" alt="" class="hero-bg" fetchpriority="high">
+        <div class="hero-content">
+            <h1>Our Mission</h1>
+            <p>Pioneering sustainable energy solutions that power progress while protecting our planet for future generations.</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="grid">
+            <div class="card">
+                <h2>Wind Energy</h2>
+                <p>Harnessing the power of wind with state-of-the-art turbine technology.</p>
+            </div>
+            <div class="card">
+                <h2>Solar Power</h2>
+                <p>Converting sunlight into clean, renewable electricity for homes and businesses.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
