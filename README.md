@@ -43,6 +43,7 @@ img/              # Image assets directory
 IMPLEMENTATION HIGHLIGHTS
 
 1. Prerendering (Speculation Rules API)
+   ```json
    {
        "prerender": [
            {
@@ -51,6 +52,7 @@ IMPLEMENTATION HIGHLIGHTS
            }
        ]
    }
+   ```
 
 2. Performance Optimizations
    • Hero images use fetchpriority="high"
